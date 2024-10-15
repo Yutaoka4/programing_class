@@ -4,10 +4,10 @@ int main(void) {
     int n, i;
     double num, sum = 0.0, sum_sq = 0.0, ave, bunsan, hyoujunhensa;
 
-    printf("‚¢‚­‚Â‚Ì”‚ğ“ü—Í‚µ‚Ü‚·‚©F");
+    printf("ã„ãã¤ã®æ•°ã‚’å…¥åŠ›ã—ã¾ã™ã‹ï¼š");
     scanf("%d", &n);
     for (i = 0; i < n; i++) {
-        printf("%d ”Ô–Ú‚Ì”’l‚ğ“ü—ÍF", i + 1);
+        printf("%d ç•ªç›®ã®æ•°å€¤ã‚’å…¥åŠ›ï¼š", i + 1);
         scanf("%lf", &num);
         sum += num;
         sum_sq += num * num;  
@@ -20,10 +20,10 @@ int main(void) {
 
     hyoujunhensa = sqrt(bunsan);
 
-    printf("‡ŒvF%.2f\n", sum);
-    printf("•½‹ÏF%.2f\n", ave);
-    printf("•ªUF%.2f\n", bunsan);
-    printf("•W€•Î·F%.2f\n", hyoujunhensa);
+    printf("åˆè¨ˆï¼š%.2f\n", sum);
+    printf("å¹³å‡ï¼š%.2f\n", ave);
+    printf("åˆ†æ•£ï¼š%.2f\n", bunsan);
+    printf("æ¨™æº–åå·®ï¼š%.2f\n", hyoujunhensa);
 
     return 0;
 }
