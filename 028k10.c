@@ -3,8 +3,8 @@
 int main(void) {
     int dan, i, j, k;
 
-    printf("”šƒsƒ‰ƒ~ƒbƒh‚ğì‚è‚Ü‚·.B\n");
-    printf("‰½’i‚Å‚·‚©F");
+    printf("æ•°å­—ãƒ”ãƒ©ãƒŸãƒƒãƒ‰ã‚’ä½œã‚Šã¾ã™.ã€‚\n");
+    printf("ä½•æ®µã§ã™ã‹ï¼š");
     scanf("%d", &dan);
 
     for (i = 1; i <= dan; i++) {
